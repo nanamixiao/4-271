@@ -80,16 +80,15 @@ public:
 
 
 
-                for (auto it = adj[u].rbegin(); it != adj[u].rend(); ++it) {
-                    int v = *it;
+                for (int v : adj[u]) {
                     if (!visited[v]) {
-                        st.push(v); 
+                        st.push(v);  // 没访问的push进去
+    
                     }
                 }
             }
         }
         cout << endl;
-
     }
 };
 
