@@ -54,6 +54,7 @@ public:
                 }
             }
         }
+        cout << endl;
     }
 
   
@@ -87,6 +88,7 @@ public:
                 }
             }
         }
+        cout << endl;
 
     }
 };
