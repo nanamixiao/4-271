@@ -16,8 +16,7 @@ private:
     vector<vector<int>> adj;
 
 public:
-    Graph(int n)
-            : adj(n)   
+    Graph(int n) : adj(n)   
     {}
 
     void addEdge(int u, int v) {
