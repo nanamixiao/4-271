@@ -116,5 +116,5 @@ int main() {
 
 #  III
 
-depend on the runtime, for both algorithms is O(V+2E) or just O(V+E), so 
+depend on the runtime, for both algorithms is O(V+2E) or just O(V+E), so both should have the same effect.
 
