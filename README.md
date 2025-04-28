@@ -15,7 +15,10 @@ class Graph {
 private:
     vector<vector<int>> adj;
 
+
 public:
+
+
     Graph(int n) : adj(n)   
     {}
 
@@ -63,8 +66,6 @@ public:
 
 
         stack<int> st;
-
-
         st.push(start);
 
 
