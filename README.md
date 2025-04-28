@@ -82,7 +82,7 @@ public:
 
                 for (int v : adj[u]) {
                     if (!visited[v]) {
-                        st.push(v);  // 没访问的push进去
+                        st.push(v);  
     
                     }
                 }
