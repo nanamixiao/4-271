@@ -116,5 +116,12 @@ int main() {
 
 #  III
 
-depend on the runtime, for both algorithms is O(V+2E) or just O(V+E), so both should have the same effect.
+depend on the runtime, for both algorithms is O(V+2E), since the leading number doesn't matter,  just O(V+E), 
 
+In that case, both algorithms should have the same effect.
+
+
+
+## video
+
+https://youtu.be/L5_W7jDLOlY
